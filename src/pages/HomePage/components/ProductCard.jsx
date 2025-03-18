@@ -9,7 +9,7 @@ const ProductCard = ({ id, name, brand, image, feminine, price }) => {
     <p className="mx-4 text-sm">{name}</p>
     <p className="mx-4 text-sm text-slate-700">{feminine ? "Feminino" : "Masculino"}</p>
     <p className="mx-4 text-sm text-green-700">{price}</p>
-    <button className="bg-slate-950 rounded-md mx-4 my-1 text-slate-100 hover:bg-slate-800"><FontAwesomeIcon icon={faCartPlus} /></button>
+    <button className="bg-slate-950 rounded-md mx-4 my-1 text-slate-100 hover:bg-slate-800 cursor-pointer"><FontAwesomeIcon icon={faCartPlus} /></button>
   </article>;
 }
 
